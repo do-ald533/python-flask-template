@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-flask-template"
+version = "0.1.0"
+description = "python template for flask api"
+authors = ["do-ald533 <douglas.aldred533@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "python_flask_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+mypy = "^1.4.1"
+pre-commit = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
