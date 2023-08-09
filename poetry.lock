@@ -81,6 +81,17 @@ files = [
 ]
 
 [[package]]
+name = "commit-linter"
+version = "1.0.2"
+description = "simple git hooks scripts for a better git experience that enforces you to use the known commit messages conventions"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "commit-linter-1.0.2.tar.gz", hash = "sha256:ea3cb1f157ec77d20031c6aff7b91e2de64c5864f65045925dd0ab1eccd95256"},
+    {file = "commit_linter-1.0.2-py3-none-any.whl", hash = "sha256:b27fc0ff9a7deac6b1b33efff0a440348680e2af84d0bf54461937ae70cab2d8"},
+]
+
+[[package]]
 name = "distlib"
 version = "0.3.7"
 description = "Distribution utilities"
@@ -439,4 +450,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "6ac0a45e603efc06c6f08d628cc9390aba65f62966f6aa4e1ed50a6bb1144adc"
+content-hash = "d8a44d7c725c4f8dd4f3040d59730d4eb86adb58e8911902f701cdb1d7f3713f"
