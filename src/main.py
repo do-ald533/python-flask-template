@@ -1,11 +1,8 @@
-from typing import Any
-
-
 def hello_world() -> None:
     print("Hello World")
 
 
-def add(x: int) -> Any:
+def add(x: int) -> int:
     return x + 1
 
 
